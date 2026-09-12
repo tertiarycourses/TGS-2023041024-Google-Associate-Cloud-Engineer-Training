@@ -1,0 +1,3 @@
+segment,region,cidr,purpose
+app-sg,asia-southeast1,10.20.0.0/24,application VMs
+data-sg,asia-southeast1,10.20.10.0/24,data services

@@ -1,0 +1,5 @@
+timestamp_utc,request,http_status,p95_ms,instances
+2026-09-12T03:00:00Z,baseline,200,120,2
+2026-09-12T03:03:00Z,ramp,200,280,4
+2026-09-12T03:05:00Z,hold,200,190,6
+2026-09-12T03:10:00Z,recovery,200,125,2

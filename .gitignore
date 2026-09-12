@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.claude/
+assessment/
+build/
+courseware/
+qa_visual/
+reference/
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+~$*

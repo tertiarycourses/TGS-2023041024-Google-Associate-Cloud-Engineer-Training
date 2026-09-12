@@ -1,0 +1,4 @@
+prefix,next_hop,as_path,priority,status
+10.20.0.0/16,cloud-vpn,64514,100,learned
+172.16.0.0/16,onprem-router,65010,100,advertised
+10.20.10.0/24,cloud-vpn,64514,90,learned

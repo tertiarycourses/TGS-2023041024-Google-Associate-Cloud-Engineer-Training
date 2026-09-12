@@ -1,0 +1,5 @@
+customer_id,region,tier,last_order_date
+C001,SG,gold,2026-09-01
+C002,MY,silver,2026-08-17
+C003,SG,bronze,2026-06-12
+C004,ID,gold,2026-09-10

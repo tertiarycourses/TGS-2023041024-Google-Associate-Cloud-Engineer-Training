@@ -1,0 +1,6 @@
+router: ace-router
+region: asia-southeast1
+local_asn: 64514
+peer_asn: 65010
+advertised_ranges:
+  - 10.20.0.0/16
