@@ -2,10 +2,9 @@
 .env
 .claude/
 assessment/
-build/
-courseware/
-qa_visual/
 reference/
+Trainer Answer Keys/
+qa_visual/
 __pycache__/
 *.pyc
 *.pyo

@@ -12,6 +12,19 @@
 
 </div>
 
+## Course details
+
+| Course detail | Information |
+|---|---|
+| Course title | WSQ - Google Associate Cloud Engineer Training |
+| Course code | `TGS-2023041024` |
+| Programme | WSQ |
+| Duration | 4 days / 32 hours (includes a 2-hour assessment) |
+| Courseware version | v8.0 |
+| Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-google-associate-cloud-engineer-training.html) |
+| Funding | Up to 70% SSG funding for eligible applicants. SkillsFuture Credit, PSEA, UTAP and SFEC may also apply. Eligibility and terms apply. |
+
+
 ## About
 
 This repository accompanies the four-day WSQ Google Associate Cloud Engineer Training course delivered by Tertiary Infotech Academy Pte. Ltd. The v8.0 materials use mechanism-led explanations, executable Google Cloud commands, controlled failure tests, and evidence-based verification aligned to the course's K1-K5 knowledge and A1-A6 ability criteria.
@@ -40,6 +53,19 @@ The detailed learner procedures are in the [Learner Guide](LG-Google%20Associate
 | [09 - Create Monitoring Evidence and an Incident Pack](activities/activity-09-create-monitoring-evidence-and-an-incident-pack/) | Alert policy, incident timeline, filtered logs | 90 min |
 | [10 - Load Test a Managed Instance Group and Escalate](activities/activity-10-load-test-a-managed-instance-group-and-escalate/) | Load results, MIG/autoscaler evidence, escalation report | 120 min |
 
+## Courseware
+
+The full v8.0 course package is published in this repository:
+
+| Item | Editable | Rendered |
+|---|---|---|
+| Slide deck | [PPT v8.0 (.pptx)](courseware/PPT-Google%20Associate%20Cloud%20Engineer%20Training-v8.0.pptx) | [PPT v8.0 (.pdf)](courseware/PPT-Google%20Associate%20Cloud%20Engineer%20Training-v8.0.pdf) |
+| Learner Guide | [LG v8.0 (.docx)](courseware/LG-Google%20Associate%20Cloud%20Engineer%20Training-v8.0.docx) | [LG v8.0 (.pdf)](courseware/LG-Google%20Associate%20Cloud%20Engineer%20Training-v8.0.pdf) |
+| Lesson Plan | [LP v8.0 (.docx)](courseware/LP-Google%20Associate%20Cloud%20Engineer%20Training-v8.0.docx) | [LP v8.0 (.pdf)](courseware/LP-Google%20Associate%20Cloud%20Engineer%20Training-v8.0.pdf) |
+
+A Markdown mirror of the Learner Guide is at [LG v8.0 (.md)](LG-Google%20Associate%20Cloud%20Engineer%20Training-v8.0.md). Slide and content build metadata are in [build/slide_map.json](build/slide_map.json) and [build/technical_anchor_inventory.json](build/technical_anchor_inventory.json). Deck imagery is in [courseware/assets/](courseware/assets/).
+
+
 ## Evidence workflow
 
 ```text
@@ -64,6 +90,14 @@ A successful command is not sufficient evidence by itself. Record the active ide
 .
 ├── README.md
 ├── LG-Google Associate Cloud Engineer Training-v8.0.md
+├── courseware/
+│   ├── PPT-Google Associate Cloud Engineer Training-v8.0.pptx / .pdf
+│   ├── LG-Google Associate Cloud Engineer Training-v8.0.docx / .pdf
+│   ├── LP-Google Associate Cloud Engineer Training-v8.0.docx / .pdf
+│   └── assets/
+├── build/
+│   ├── slide_map.json
+│   └── technical_anchor_inventory.json
 └── activities/
     ├── activity-01-create-a-safe-google-cloud-training-environment/
     │   ├── Activity 01 Guide.pdf
